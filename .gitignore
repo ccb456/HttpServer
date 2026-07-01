@@ -1,0 +1,15 @@
+build/
+bin/
+logs/
+.vscode/
+.cache/
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.log
+*.swp
+.idea/
+test_buffer
+*.pdf

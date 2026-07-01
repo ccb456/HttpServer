@@ -1,0 +1,36 @@
+# Server configuration
+port = 8080
+trigMode = 3
+timeoutMs = 60000
+
+# Log
+enableLog = false
+logDir = logs
+logBaseName = server
+logLevel = 0
+logRollSize = 104857600
+logFlushInterval = 3
+
+# ThreadPool
+threadMinSize = 4
+threadMaxSize = 4
+taskQueueMaxSize = 4096
+threadPoolMode = 0
+threadStartRunning = true
+threadRejectPolicy = 1
+threadIdleTimeoutMs = 60000
+
+# MySQL
+enableSqlPool = true
+sqlHost = 127.0.0.1
+sqlPort = 3306
+sqlUser = ccb
+sqlPwd = 123456
+sqlDbName = webserver
+sqlMinSize = 4
+sqlMaxSize = 32
+sqlMaxIdleTime = 300
+sqlConnectionTimeout = 1000
+
+# Web root
+webRoot = ./webroot
